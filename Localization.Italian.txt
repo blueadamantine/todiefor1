@@ -1,0 +1,373 @@
+.,Italian
+quest.name,Una storia bella da morire: Prologo
+quest.description,Inaspettatamente, uno di voi riceve una chiamata da Robert Blake, amico d'infanzia e scrittore del fantastico e dell'orrore. Dopo cinque anni di viaggi intorno al mondo, ti contatta con una chiamata confusa e delirante. Questo fatto, unito ai tuoi inutili tentativi di raggiungerlo in qualunque modo da almeno un mese, ti spingono a indagare sulla faccenda.
+quest.synopsys,Ricevi una chiamata di aiuto dal tuo amico scrittore su sottofondo di suoni spaventosi.
+quest.authors,Cara Jamte
+quest.authors_short,Cara Jamte
+TokenEsploraStudio.button1,Apri {action}
+EventApriPortaUfficio.button1,Continua
+EventStart.text,Giungete presso la residenza di Robert Blake sul fare della sera. Vi chiudete la porta d'ingresso alle spalle.
+EventStart.button1,Continua
+EventHeroes.button1,Continua
+EventHeroes.text,Piazzate gli Investigatori adiacenti allo spazio indicato.\n\nTutti gli Investigatori iniziano con 2 indizi.
+EventIstruzioniInizio.button1,Continua
+TokenEsploraStudio.text,Una targhetta identifica la stanza al di là di questa porta come uno Studio.
+TokenEsploraDisimpegno.button1,Esplora {action}
+EventPortaCamera.text,Davanti a te vedi una porta chiusa.\n\nPoni un segnalino Esplorazione come indicato.\n
+EventPortaCamera.button1,Continua
+EventPoniTesseraDisimpegno.button1,Continua
+TokenEsploraSalaPranzo.text,Questa è la porta della sala da pranzo.
+TokenEsploraSalaPranzo.button1,Apri {action}
+EventApriPortaSalaPranzo.text,Un massicio tavolo rotondo circondato da poltrone occupa il lato opposto della stanza. Insieme a un carrello per il servizio delle portate e i quadri, la sala da pranzo si presenta con un'accogliente eleganza vecchio stile.\n\nAnche qui sembra essere passato un tornado. Le poltrone e il carrello sono rovesciati, insieme ad alcune stoviglie che ora stanno sul pavimento. I quadri sono storti e il tappeto e parzialmente sollevato da terra, ripiegato su se stesso.\n\nPoni la tessera {c:TileSalaPranzo}.
+EventApriPortaSalaPranzo.button1,Continua
+TokenCercaSalaPranzo.button1,Esamina {action}
+EventApriPortaSalotto.button1,Continua
+TokenEsploraSalotto.button1,Apri {action}
+TokenCercaSalaPranzo.text,Ci sono stoviglie rotte sparse al suolo
+TokenEsaminaCorpo.text,Lo riconoscete a malapena. Il vostro amico scrittore è rannicchiato in posizione fetale stringendo in mano un oggetto.
+TokenEsploraSalotto.text,Questa porta conduce a un'altra stanza.
+TokenCercaSoggiornoFinestra.button1,Indaga {action}
+EventCercaFinestreSoggiorno.text,La casa ha una splendida vista. Le finestre sono volte a occidente, da cui si può vedere il profilo monumentale della chiesa neogotica di Federal Hill.\n\nOttieni 1 indizio.\n\nRimuovi questo segnalino Ricerca.
+TokenCercaSoggiornoFinestra.text,Le finestre del salotto sono spalancate e le schegge di vetro giacciono sparse sul pavimento sotto di esse.
+EventCercaFinestreSoggiorno.button1,Continua
+TokenInterazioneSoggiorno.text,Su alcuni pezzi di vetro parzialmente intatti, noti quelle che sembrano macchie di una vernice di qualche tipo.
+TokenInterazioneSoggiorno.button1,Prova a ricomporre i pezzi {observation}{action}
+EventPuzzleSoggiornoRisolto.text,Davanti a voi, un mosaico di vetro compone la sagoma di un edificio dipinta con la vernice, circondata da simboli dal senso occulto. Vi domandate se sia sintomo della pazzia del vostro amico o abbia un significato recondito.
+PuzzleSoggiorno.button1,Risolvi
+EventPuzzleSoggiornoRisolto.button1,Continua
+TokenEsaminaCorpo.button2,Esamina oggetto {action}
+EventEsaminaSoggiorno.button2,Lascia stare
+EventEsaminaSoggiorno.button1,Esamina {action}
+PuzzleProvaEsaminaVittima.button1,Formula ipotesi
+EventEsameVittimaSuperato.button1,Continua
+EventEsameVittimaSuperato.text,Noti che il corpo di Robert è privo di qualsiasi ferita fisica. La tua certezza è che la sua morte sia dovuta a un profondo spavento.\n\nOttieni 1 indizio
+EventTokenRicercaPranzo.text,Tra le stoviglie sparse e i piatti frantumati trovate qualcosa che può esservi utile.\n\nOttieni l'oggetto comune Coltello.\n\nRimuovi questo segnalino Ricerca.
+EventPosizionaPortaSalotto.button1,Continua
+EventOttieniCandele.button1,Continua
+EventProvaOrroreFaleneFallita.button1,Continua
+EventEsaminaOggetto.text,Si tratta di una candela. Lo stoppino è annerito, segno che è stata accesa in precedenza, ma non deve aver arso per molto, poichè ha ancora molta cera.
+EventTaccuino.text,Il taccuino apparteneva a Edwin Lillibridge, un giornalista che indagava sulle voci di sparizioni e correlati sacrifici umani perpetrati da un culto chiamato setta della Saggezza Stellare, proprietaria della chiesa di Federal Hill.\n\nGli appunti parlano anche di un artefatto sacro al culto, una pietra, la quale serviva per scrutare i segreti dell'Universo e mettersi in contatto con l'Abitatore del Buio, un mostruoso essere extraterrestre che esigeva sacrifici umani e sfuggiva ogni fonte di luce.\n\nOttenete 1 indizio e l'oggetto unico Prove Circostanziali.
+EventTaccuino.button1,Riponi Taccuino
+EventPercezioneLibreria.button1,Continua
+EventPercezioneLibreria.text,Fai una prova di Percezione {observation}+1
+TokenCercaCassetto.text,Il cassetto è dotato di tre pulsanti, ognuno contrassegnato da un simbolo diverso.
+TokenCercaCassetto.button1,Esamina {action}
+TokenCercaLibreria.text,In questa vecchia libreria ci sono vari tomi di tutti i generi.
+EventCassettoScassinato.text,Nel cassetto trovi un vecchio diario e un'arma.\n\nOttieni l'oggetto comune {c:QItemRevolver} e l'oggetto unico {c:QItemDiario}.\n\nPuoi consultare il contenuto diario quando vuoi, spendendo un'azione.\nPer farlo, premi il tasto Items nell'app e poi interagisci con il diario.\n\nRimuovi questo segnalino Ricerca.
+EventCassettoScassinato.button1,Continua
+PuzzleCassetto.button1,Completato
+TokenCercaLibreria.button1,Esamina {observation}
+EventApriPortaSalotto.text,Sembra che un forte terremoto abbia sconquassato questa stanza più che con il resto della casa che avete esplorato finora.\n\nPoni la tessera {c:TileSoggiorno}.
+EventBibbia.text,Al suo interno trovi un tomo sulla cui copertina verde è stampato un titolo in lettere dorate.\n\nOttieni l'oggetto comune Bibbia di Re Giacomo.\n\nScarta questo segnalino Ricerca.
+EventBibbia.button1,Continua
+TokenEsploraCamera.text,Sulla porta, una targhetta identifica questa stanza come una Camera.
+TokenEsploraCamera.button1,Apri {action}
+EventApriPortaCamera.text,I tuoi piedi calpestano qualcosa che scricchiola sotto le scarpe. Abbassando lo sguardo scopri che si tratta di una lampada, andata in pezzi probabilmente dopo una caduta.\n\nLa camera da letto dello scrittore è un tripudio di caos. Il letto sfatto, le sedie e il  letto sono rovesciati. Persino la pesante poltrona accostata alla parete sinistra è ribaltata.\n\nUn paio di quadri alla tua destra giacciono a terra tra frammenti di vetro, le cornici rotte. Quello di sinistra pende da un chiodo.\n\nLe ante degli armadi sono spalancae e diversi capi di abbigliamento sono sparsi sui mobili della camera.\n\nPoni la tessera {c:TileCamera} come indicato.
+EventApriPortaCamera.button1,Continua
+TokenInterruttoreIngresso.button1,Premi {action}
+EventLuceAssente.button1,Continua
+EventLuceAssente.text,L'interruttore si aziona con un click, ma la luce si rifiuta di accendersi.
+EventLibreria.button1,Continua
+EventCercaLibreriaSuperata.text,Tra i vari tomi, trovi un libro di medicina.
+EventCercaLibreriaSuperata.button1,Prendi {action}
+EventRicercaLibreria.button1,Continua
+EventCercaLibreriaFallita.text,Scorri i titoli dei vari tomi ma nessuno di essi suscita alcun particolare interesse.
+EventCercaLibreriaFallita.button1,Continua
+EventCassettoUrta.button1,Indaga {action}
+EventRicercaCamera.text,Fai una prova di Percezione {observation}.
+EventRicercaCamera.button1,Continua
+EventRicercaCameraSuccesso.text,Da lontano noti un tomo in uno dei cassetti aperti del comodino accanto al letto.
+EventRicercaCameraSuccesso.button1,Continua
+TokenCercaComodino.button1,Esamina {action}
+TokenCercaComodino.text,Dal cassetto superiore aperto del comodino, spunta un libro.
+EventTrovaBibbia.button1,Prendi il libro {action}
+EventRicercaCamera.button2,Fail
+EventTrovaBibbia.text,Un libro dalla copertina rigida verde mostra la copertina col titolo Bibbia di Re Giacomo.
+EventRicercaCameraFallita.button1,Continua
+TokenInterruttoreDisimpegno.text,L'interruttore della luce.
+EventRicercaCameraFallita.text,In questo caos non ti sembra di vedere nulla che ti possa essere utile.
+TokenInterruttoreDisimpegno.button1,Premi {action}
+TokenInterruttoreIngresso.text,Questo è un interruttore della luce.
+EventFusibile.button1,Continua
+EventLuceAssente1.text,La luce non si accende.
+EventFusibile.text,Cominciate a pensare che sia saltato un fusibile.
+EventLuceAssente1.button1,Continua
+TokenCercaBagno.button1,Apri {observation}
+EventCercaBagnoSuccesso.button1,Prendi {action}
+TokenCercaBagno.text,Un armadietto è sospeso sopra il lavabo. L'anta è chiusa.
+EventCercaBagnoSuccesso.button2,Lascia
+EventOttieniBende.text,Ottieni l'oggetto comune {c:QItemBende}.\n\nScarta questo segnalino Ricerca.
+EventOttieniBende.button1,Continua
+TokenEsploraDisimpegnoPiccolo.text,Questa porta è chiusa.
+TokenEsploraDisimpegnoPiccolo.button1,Apri {action}
+EventApriPortaBagno.button1,Continua
+EventOttieniLibroMedicina.button1,Continua
+TokenEsploraCucina.text,La porta è chiusa.
+TokenEsploraCucina.button1,{action} Apri
+EventApriPortaCucina.text,Approdi in un cucinino adatto a un appartamento da celibe. Oltre a essere ingombo di mobili e comuni elettrodomestici, sulla sinistra vi è una porta aperta che conduce a un piccolo sgabuzzino.\n\nPoni la tessera {c:TileCucina}.
+EventApriPortaCucina.button1,Continua
+TokenCercaCucina.text,La scatola dei fusibili è chiusa.
+TokenCercaCucina.button1,{action} Apri
+EventApriScatolaFusibili.text,I fusibili sono a posto, ma sono saltati i collegamenti elettrici.
+EventApriScatolaFusibili.button1,Aggiusta
+EventLeggiDiario0.text,Leggere ogni pagina richiede 1 Azione {action}.\nSi ottiene 1 indizio {clue} solo la prima volta che si legge una pagina.\nGli investigatori che si trovano a 2 caselle di distanza da colui che interagisce col diario, possono spendere 1 Azione per ascoltare e quindi ottenere 1 indizio. Le caselle non devono essere separate da alcun muro.\n--\n\n10 ottobre 1935\n\nDopo cinque anni di viaggi, finalmente ho preso la decisione di fermarmi qui a Providence. Ho raccolto appunti sufficienti per almeno tre libri. Inizierò a lavorarci subito. Prima di tutto, però voglio visitare la città. Vi sono un sacco di luoghi sacri e non da cui voglio trarre ispirazione.\n\nOttieni 1 indizio {clue}
+EventLuceAggiustata.text,Uno sfarfallio di luci attraversa l'intera casa. Poi l'illuminazione si stabilizza e l'oscurità viene ricacciata negli angoli più remoti delle stanze.\n\nRimuovi tutti i segnalini Oscurità dal tabellone.
+EventLuceAggiustata.button1,Continua
+PuzzleElettricit.button1,Ricollega
+EventLeggiDiario0.button2,Riponi il diario
+EventLeggiDiario1.text,13 ottobre 1935\n\nNegli ultimi tre giorni ho passato il tempo a cercare l'ispirazione per iniziare a scrivere. Non capisco. Sono in possesso di tutte le informazioni che mi servono per cominciare il mio prossimo romanzo, ma mi è difficile sgombrare la mente in misura sufficiente a permettere alle mie dita di comporre frasi compiute sulla macchina da scrivere. Un blocco proprio ora non ci voleva. Pensavo davvero che questa città mi avrebbe fornito l'ispirazione perfetta.\n\nOttieni 1 indizio {clue}
+EventLeggiDiario1.button1,Leggi ancora {action}
+EventLeggiDiario2.button1,Leggi ancora {action}
+EventIndiziSufficienti.text,Ora avete sufficienti indizi per lasciare l'appartamento.
+TokenUscitaAppartamento.button1,Continua
+EventEsaminaSoggiorno.text,Osservate l'espressione dell'uomo ed è una maschera di puro terrore, torta a un'angolazione disumana. Gli occhi e la bocca sono spalancati in un modo impossibile e le braccia sono serrate contro il petto, le dita irrigidite ad artiglio.\nCosa può essergli successo?
+EventIndiziSufficienti.button1,Continua
+UIEnd.text,Il vostro amico scrittore ha incontrato la morte in un modo orribile di cui però non conoscete il responsabile.\nNel suo diario, avete letto dei luoghi in cui è stato e delle folli e deliranti esperienze di cui è stato vittima negli ultimi giorni.\n\nIl mistero è ben lontano dall'essere svelato. Cos'ha ucciso lo scrittore? Chi ha preso la pietra da cui era ossessionato? Cosa conteneva il taccuino che il vostro amico ha consegnato al detective?\n\nTutte queste risposte vi aspettano nel prossimo capitolo.
+EventLeggiDiario2.text,14 ottobre 1935\n\nMi sento stranamente irrequieto. Vista la mia incapacità di scrivere, mi sono recato a visitare un ultimo luogo, una chiesa che, secondo i locali, sarebbe servita da sede di culto per una setta dedita a sacrifici umani. E' stato terribile. Lì ho trovato i resti di un essere umano e, accanto a essi, un taccuino. Lo porterò a casa con me per esaminarlo. Potrebbe contenere informazioni importanti. Ci sono ancora numerose persone scomparse e la polizia potrebbe farne buon uso. Ho trovato anche una libreria piena di libri e una strana pietra, rinchiusa in una scatola nella torre campanaria. Mi domando come mai fosse là. Sembra preziosa, la porterò con me.\n\nOttieni 1 indizio {clue}
+EventEsameVittimaFallito.text,Non riesci a capire cosa abbia causato la questa morte orribile.
+EventEsameVittimaFallito.button1,Continua
+EventEsaminaVittima.button1,Continua
+EventOttieniCandele.text,Ottieni l'oggetto comune {c:QItemCandele}
+EventEsaminaOggetto.button2,Lascia stare
+SpawnFalene.text,Genera un mostro MiGo come indicato. Esso rappresenta lo sciame.\n<i>(E' sufficiente usare il segnalino.)</i>\n\nLo sciame si muove solo nelle caselle con un'Oscurità. Non attacca Investigatori in caselle illuminate o in possesso di una Fonte di Luce.
+EventMonsterDying.text,La creatura urla di un dolore atroce. Sentite le sue zampe attraversare di corsa l'appartamento. Infine udite un tonfo sordo, lontano, all'esterno dell'appartamento e il suono dei suoi passi che si allontanano.\n\nTirate tutti un sospiro di sollievo per il pericolo scampato, ma l'esperienza vi ha scosso.\n\nTutti gli investigatori subiscono 1 orrore ({will} nega).
+EventMonsterDying.button1,Continua
+EventMonsterDyingEyeWitness.text,(Questa parte va letta solo dagli Investigatori nella stanza Soggiorno. Se non ce ne sono, saltate questo pezzo.)\n\nGli investigatori nel salotto vedono la creatura sfrecciare di fronte a loro e balzare fuori dalla finestra alla estrema sinistra.
+EventMonsterDyingEyeWitness.button1,Continua
+EventPercezioneLibreriaSuperata.button1,Ispeziona {action} 
+EventPercezioneLibreria.button2,Pulsante2
+EventPercezioneLibreriaSuperata.text,Noti una libreria che potrebbe contenere indizi.
+EventPercezioneLibreriaFallita.button1,Continua
+EventPercezioneLibreriaFallita.text,Dubiti che in questa stanza ci sia qualcosa di utile. Decidi di andare avanti.
+EventProvaSapienzaBagno.button1,Prova {lore}
+EventProvaSapienzaBagno.button2,Pulsante2
+EventProvaSapienzaBagno.text,Fai una Prova di Sapienza {lore}
+TokenCercaBagno.button2,Pulsante2
+EventProvaBagnoSuperata.text,Gli americani tendono a tenere i medicinali nell'armadietto sopra al lavandino del bagno. Forse c'è qualcosa qui che può tornarti utile.
+EventProvaBagnoSuperata.button1,Continua
+EventCercaBagnoFallita.text,Eh no, qui non c'è proprio nulla che ti possa servire.
+EventProvaBagnoFallita.text,Qui non c'è niente che ti interessi.
+EventProvaBagnoFallita.button1,Continua
+EventProvaCucina.button1,Continua
+EventProvaCucina.button2,Pulsante2
+EventProvaCucinaSuperata.text,Qualcosa ti dice che in questa stanza si trova il quadro dell'elettricità. Forse puoi ridare corrente all'appartamento.
+EventProvaCucinaSuperata.button1,Continua
+EventProvaCucina1.text,Lo sgabuzzino è pieno di oggetti. Qualcosa di utile ci sarà.
+EventProvaCucinaFallita.text,Cosa potresti mai trovare di utile qui dentro?
+EventProvaCucinaFallita.button1,Esamina {observation}
+EventProvaCucina1.button1,Continua
+EventProvaCucina1.button2,Pulsante2
+EventProvaCucina.text,Fai una Prova di Sapienza
+EventProvaCucina1Superata.text,Alla tua sinistra, intravedi il quadro dell'elettricità. Magari ora puoi ridare corrente all'appartamento.
+EventProvaCucina1Superata.button1,Continua
+EventApriScatolaFusibili.button2,Lascia stare
+EventEsaminaVittima.button2,Pulsante2
+EventEsaminaVittima.text,Fai una Prova di Sapienza {lore}\n\n+1 al risultato se la professione dell'Investigatore è medica.
+EventLeggiDiario1.button2,Riponi il diario
+EventLeggiDiario2.button2,Riponi il diario
+EventLeggiDiario3.text,15 ottobre 1935\n\nMi sono cacciato in un bel guaio. Da quando sono entrato in quella chiesa, ho la sensazione di essere osservato dovunque io vada. Proprio l'altro giorno, mentre mi recavo a pranzare alla tavola calda, credo di aver intravisto una figura sconosciuta osservarmi semi-nascosta da un angolo della via. Mi sento a disagio. Mi sono rivolto a un detective privato, Mark Keating. Abbiamo convenuto che sia meglio per la mia incolumità consegnare il taccuino e la pietra alla polizia.\n\nOttieni 1 indizio {clue}
+EventLeggiDiario3.button1,Leggi ancora {action}
+EventLeggiDiario3.button2,Riponi il diario
+EventLeggiDiario4.button1,Leggi ancora {action}
+EventLeggiDiario4.button2,Riponi diario
+EventLeggiDiario4.text,16 ottobre 1935\n\nAvrei dovuto consegnare la pietra al detective quest'oggi, ma gli ho portato solo il taccuino. Qualcosa, una forza d'attrazione irresistibile, mi lega a questo oggetto, rendendomi impossibile separarmene. I miei sogni sono costellati di visioni di mondi al di là dell'ordinario, immagini che mi ispirano a scriverne. Tuttavia, passo più tempo a sognare a occhi aperti di queste dimensioni fantastiche di quanto ne passi a fare qualsiasi altra cosa. Persino assentarmi per andare al bagno è diventato un atroce gesto di allontanamento dalle mie visioni. Dovrei ricominciare a scrivere.\n\nOttieni 1 indizio {clue}
+EventLeggiDiario5.button1,Non ci sono altre annotazioni
+EventLeggiDiario0.button1,Leggi ancora {action}
+EventLeggiDiario5.text,20 ottobre 1935\n\nÈ successa una cosa molto strana. Fra me e l'Abitatore si è instaurato un legame tale che sono costretto a legarmi al letto ogni notte per non trovarmi a deambulare fino alla maledetta torre campanaria. Solo i lampioni costituiscono la mia salvezza, poiché la luce artificiale ha la capacità di scacciare l'Abitatore da dove è giunto, impedendogli così di uscire per strada e raggiungermi. Sospetto che non potrò tenerlo a bada ancora per molto. Temendo ciò che mi sta succedendo, mi sono separato dalla pietra. Non ho nemmeno voluto toccarla. Ho affittato una stanza in albergo e ho cercato di evitare casa mia per quanto mi fosse possibile. Stamattina sono tornato per controllare e ho trovato tutto a soqquadro. La pietra è stata rubata. Sospetto che l'individuo da me scorto l'altro giorno mi stesse seguendo proprio allo scopo di trovarla.\n\nCredo di aver fatto un grave errore. Ho bisogno di aiuto, ma le autorità mi prenderebbero per pazzo. Sono costretto a chiamare i miei amici e sperare vengano in mio soccorso.\n\nOttieni 1 indizio {clue}
+EventApriPortaUfficio.text,Ti si presenta davanti un ufficio di modeste dimensioni, disordinato, ma pulito. E' buio anche qui.\n\nPoni la tessera {c:TileStudio} e il segnalino Parete come indicato.\n\nRimuovi il segnalino Esplorazione.
+UIEnd.button1,Fine
+EventAttaccoPuntura.button1,Continua
+EventAttivazMostro.text,La nube di falene brulicanti si sposta di 2 spazi verso l'Investigatore più vicino e attacca l'Investigatore nel suo spazio con la Percezione {observation} più bassa.
+EventAttivazMostro.button1,Il Mostro attacca
+EventAttaccoMostroPlana.button1,Continua
+EventAttaccoMostroMischia.text,Il Mostro si solleva sulle zampe posteriori e si prepara per infilzare l'investigatore con quelle anteriori, munite di grossi aculei. L'investigatore subisce 2 danni ({strength} nega).
+EventAttaccoMostroPlana.text,Il Mostro usa le sue ali da falena per planare sull'investigatore e gettarlo a terra. L'investigatore subisce 2 danni a faccia in giù ({agility} nega).
+EventAttaccoMostroMischia.button1,Continua
+EventAttaccoMostroCoda.text,Il Mostro fa una piroetta, caricando un colpo di coda.\nTutti gli investigatori presenti nella casella subiscono 2 danni a faccia in giù ({agility} nega).
+EventAttaccoMostroCoda.button1,Continua
+EventAttaccoPuntura.text,Lo sciame ti avvolge e percepisci un migliaio di microscopiche punture penetrare la tua carne, lacerandola ({agility} 2).\n\nSe hai successo riesci a sottrarti al suo abbraccio doloroso, altrimenti subisci 1 danno a faccia in giù.
+EventAttivazMostro.button2,Nessun investigatore nella casella
+EventMostroMuove.text,La nube di parassiti si muove di ulteriori 2 caselle oscurate verso l'investigatore più vicino.
+EventMostroMuove.button1,Continua
+EventMostroEvasione.text,Mentre ti volti per fuggire, la creatura cerca di impedirtelo con un colpo di coda, mirato a farti cadere.
+EventMostroEvasione.button1,Continua
+EventProvaEvasioneMostro.text,Fai una prova di Agilità {agility}
+EventProvaEvasioneMostro.button1,Continua
+EventProvaEvasioneMostroSuperata.text,Balzi al di sopra dell'appendice mostruosa e riesci nel tentativo.
+EventProvaEvasioneMostroSuperata.button1,Continua
+EventProvaEvasioneMostro.button2,Pulsante2
+EventProvaEvasioneMostroFallita.text,Fai un balzo, ma l'appendice insettoide del mostro di fa ruzzolare a terra. Subisci 2 danni a faccia in giù.
+EventProvaEvasioneMostroFallita.button1,Continua
+EventEsaminaOggetto.button1,Prendi {action}
+EventDescrizioneSpawn.button1,Continua
+EventOrroreMostro1.button1,Continua
+EventProvaOrroreMostroFrinire.text,Appena udite quel suono, cercate di tapparvi le orecchie \n\nFate una prova di Agilità {agility}
+EventProvaOrroreMostroFrinire.button1,Continua
+EventProvaOrroreMostroFrinireSuperata.text,Fulminei, riuscite ad attutire quel terribile rumore appena in tempo.
+EventProvaOrroreMostroFrinireSuperata.button1,Continua
+EventProvaOrroreMostroFrinire.button2,Pulsante2
+EventProvaOrroreMostroFrinireFallita.text,I vostri riflessi sono lenti e il verso della creatura vi penetra la mente.\n\nTutti gli investigatori a portata diventano Frastornati.
+EventProvaOrroreMostroFrinireFallita.button1,Continua
+EventOrroreMostro1.text,Il Mostro inizia a scuotere il corpo, producendo un frinio pari a quello di un'infinità di cicale. Il suono fa vibrare le pareti e sembra penetrarvi nel cervello, impedendovi di ragionare e dandovi la sensazione che stia per esplodere.
+EventPortaStudio.text,Una porta chiusa si trova alla vostra immediata sinistra.\n\nPoni un segnalino Esplorazione come indicato.
+EventPortaStudio.button1,Continua
+EventPortaSalaPranzo.text,In fondo al corridoio, attraverso l'oscurità, intravedete un altro uscio.\n\nPoni un segnalino Esplorazione come indicato.
+EventPortaSalaPranzo.button1,Continua
+EventPoniTokenVista.button1,Continua
+TokenCercaScrivania.button2,Vai via
+EventPosizionareIngressoSegnalini.text,Posizionate la tessera {c:TileEntry}, i segnalini Ricerca, Esplorazione e Vista come indicato.
+EventPosizionareIngressoSegnalini.button1,Continua
+EventPiazzaInterruttoreIngresso.text,Alla vostra destra riuscite a intravedere un interruttore della luce. Forse potrebbe aiutarvi a vederci meglio nella faccenda.\n\nPoni un segnalino Interazione come indicato.
+EventPiazzaInterruttoreIngresso.button1,Continua
+EventScrivania.button1,Continua
+EventRicercaLibreria.button2,Pulsante2
+EventScrivania.text,Una scrivania ingombra di fogli domina la stanza.
+EventMovimentoCasellaDisimpegno.button1,Continua
+EventInterruttore.button1,Continua
+EventPortaCucina.text,In fondo al corridoio, all'estrema destra, vaghi riflessi danno forma a un'altra porta.\n\nPoni un segnalino Esplorazione come indicato.
+EventPortaCucina.button1,Continua
+EventInterruttore.text,Alla tua destra scorgi un altro interruttore della luce.\n\nPoni un segnalino Interazione come indicato.
+EventRicercaLibreria.text,Cerchi di capire se ci possa essere qualcosa di utile {observation}
+EventApriPortaBagno.text,Ti trovi davanti a un piccolo disimpegno, adorno di una poltrona in pelle e un mobile su cui giace una lampada spenta, rovesciata su un fianco. La porta del bagno è aperta e puoi notare quanto sia altrettanto piccola questa stanza.\n\nPoni la tessera {c:TileBagno}.
+EventOscuritDisimpegno.button1,Continua
+EventOscuritDisimpegno.text,Anche qui è piuttosto buio.\n\nPoni due segnalini Oscurità sulla tessera, uno per casella.
+EventIstruzioniInizio.text,Ponete un'Oscurità in ogni casella.
+EventPosizionaSegnalini.button1,Continua
+EventLibreria.text,Una libreria colma di tomi è posta lungo la parete della stanza.
+EventPosizionaSegnalini.text,Poni i segnalini Ricerca come indicato.\n\nPuoi spostarti di una casella nell'area esplorata.
+EventCercaLibreria.text,Cerca qualcosa di utile {observation}
+EventCercaLibreria.button1,Continua
+EventCercaLibreria.button2,Pulsante2
+TokenCercaScrivania.text,Su questa scrivania ci sono fogli sparsi ovunque. A parte alcuni appunti chiaramente atti alla stesura di un nuovo romanzo, non trovi nulla di interessante.
+TokenCercaScrivania.button1,Esamina meglio {action}
+EventCassettoUrta.text,Stai per allontanarti quando urti qualcosa con il ginocchio.
+EventOrroreFalene.button2,Pulsante2
+EventEvasioneFalene.button1,Continua
+EventBarricataIngresso.text,Un mobile accanto a questa porta può fungere da barricata, nel caso ce ne fosse bisogno.\n\nPoni un segnalino Barricata come indicato.
+EventBarricataIngresso.button1,Continua
+EventSalaPranzoAccessibile.button1,Continua
+TokenEsaminaSalaPranzoAccessibile.text,Dove prima c'era una porta chiusa, ora ci sono detriti di legno ammassati sul pavimento.
+EventSalaPranzoAccessibile.text,Ora la Sala da Pranzo è aperta e accessibile.
+TokenEsaminaSalaPranzoAccessibile.button1,Continua
+EventSoggiornoAccessibile.text,Con la coda dell'occhio, noti che anche la porta della stanza successiva è stata abbattuta ed è ora liberamente accessibile.
+EventSoggiornoAccessibile.button1,Continua
+EventRitrovamentoVittima.text,Al centro della stanza c'è un corpo rannicchiato nell'ombra.
+EventRitrovamentoVittima.button1,Continua
+EventFinestreSpalancateRotte.text,Le tre grandi finestre della stanza sono spalancate e i frammenti di vetro disseminati ovunque al suo interno.
+EventFinestreSpalancateRotte.button1,Continua
+EventIstruzioniSoggiorno.text,Rimuovi il segnalino Esplorazione.\n\nPuoi muoverti di una casella nell'area appena esplorata.
+EventIstruzioniSoggiorno.button1,Continua
+EventOscuritSoggiorno0.button1,Continua
+EventOscuritSoggiorno1.button1,Continua
+EventOscuritSoggiorno0.text,Anche in questa stanza è buio.\n\nPoni un segnalino Oscurità in ogni casella della tessera.
+EventOscuritSoggiorno2.button1,Continua
+EventOscuritSoggiorno3.button1,Continua
+EventTokenRicercaPranzo.button1,Continua
+EventPortaSoggiorno.button1,Continua
+EventIstruzioniSala.text,Rimuovi questo segnalino Esplorazione.\n\nPuoi muoverti di una casella nell'area appena esplorata.\n
+EventPortaSoggiorno.text,Subito alla tua destra c'è un'altra porta.
+EventIstruzioniSala.button1,Continua
+EventOscuritSala0.text,Poni un segnalino Oscurità in ogni casella della tessera.
+EventOscuritSala0.button1,Continua
+EventOscuritSala1.button1,Pulsante1
+EventPosizionaTokenColtello.button1,Continua
+EventPosizionaTokenColtello.text,Delle stoviglie in frantumi giacciono sul pavimento.\n\nPoisiziona un segnalino Ricerca come indicato.
+EventTrovaColtello.button1,Raccogli {action}
+EventTrovaColtello.button2,Lascia stare
+EventOttieniColtello.button1,Continua
+EventTrovaColtello.text,Tra i cocci e le posate noti un coltello da cucina.
+EventOttieniColtello.text,Decidi di raccogliere il coltello. Potrebbe tornarti utile.\n\nOttieni l'oggetto Comune {c:QItemColtello}.\n\nRimuovi questo segnalino Ricerca.
+EventPosizionaPortaSalotto.text,Alla tua sinistra noti una porta.\n\nPosiziona un segnalino Esplorazione come indicato.
+EventMostroMuove0.text,Spostate il mostro Mi-Go come indicato.
+EventMostroMuove0.button1,Continua
+EventIstruzioniMostro.button1,Continua
+EventMostroMuove1.text,Muovete il mostro Mi-Go come indicato
+EventIstruzioniMostro.text,Generate un mostro Mi-Go come indicato.\n\nPer il momento rimarrà fuori dal tabellone.\n\nSeguite le istruzioni per quanto riguarda i suoi successivi spostamenti.
+EventMostroMuove1.button1,Continua
+EventOttieniBibbia.button1,Continua
+EventTrovaBibbia.button2,Lascia stare l'oggetto
+EventOttieniBibbia.text,Ottieni l'oggetto comune {c:QItemBibbia}.\n\nRimuovi questo segnalino Ricerca.
+EventPosizionaTokenPortaCamera.text,Alla tua destra intravedi un uscio chiuso.\n\nPoni un segnalino Esplorazione come indicato.
+EventPosizionaTokenPortaCamera.button1,Continua
+EventPoniOscuritCamera0.text,Poni un segnalino Oscurità in ogni casella di questa tessera.
+EventPoniOscuritCamera0.button1,Continua
+EventPoniOscuritCamera1.button1,Continua
+EventCercaBagnoSuccesso.text,Un rotolo di garza giace su una delle mensoline in mezzo a flaconi e scatole contenenti varie pillole.
+EventCercaBagnoFallita.button1,Continua
+EventRimuoviTokenEsplCucina.text,Rimuovi questo segnalino Esplorazione.
+EventRimuoviTokenEsplCucina.button1,Continua
+EventPoniOscuritCucina0.text,Metti un segnalino Oscurità in ogni casella di questa tessera.
+EventPoniOscuritCucina0.button1,Continua
+EventAvanzareInCucina.button1,Continua
+EventPoniOscuritCucina1.button1,Continua
+EventAvanzareInCucina.text,Puoi muoverti di una casella all'interno dell'area appena esplorata.
+EventAttaccapanniRovesciato.text,L'attaccapanni giace a terra vicino a quella che, probabilmente, è la giacca del vostro amico.
+EventAttaccapanniRovesciato.button1,Continua
+EventTavolinoRovesciato.text,Un tavolino è rovesciato a terra e ciò che prima vi stava sopra si è fracassato sulle piastrelle. Un disastro.
+EventTavolinoRovesciato.button1,Continua
+EventPoniOscuritIngresso1.text,Durante il suo turno, ogni Investigatore può muoversi di una sola casella invece di due, a meno che non abbia una Fonte di Luce.\n\nQuesta condizione permane finchè l'illuminazione della casa non viene ripristinata.
+EventPoniOscuritIngresso1.button1,Continua
+EventRevealEntry.text,Nell'appartamento del vostro amico scrittore regnano silenzio e oscurità incontrastati.\n\nLa scena che vi si presenta davanti è piuttosto sconcertante. Il corridoio sembra essere stato devastato da un terremoto.\n\nPonete la tessera {c:TileEntry} come indicato.
+EventRevealEntry.button1,Continua
+EventPiazzaTokenUscita.text,Questa è l'uscita dall'appartamento.\n\nPotrete lasciare il luogo quando avrete indizi sufficienti per continuare l'indagine.\n\nPotete cominciare il turno.
+EventPiazzaTokenUscita.button1,Continua
+EventUscitaDisponibile.text,Ora avete sufficienti indizi per proseguire l'indagine in un altro luogo. Volete lasciare l'appartamento?
+EventUscitaDisponibile.button1,Sì.
+TokenUscitaAppartamento.text,Questo ingresso conduce all'esterno dell'appartamento.
+EventEnd.text,Ora avete un quadro più chiaro su ciò che è successo al vostro defunto amico scrittore. Robert è entrato in contatto con un'entità estremamente potente e pericolosa. L'incontro con la creatura in questa stessa casa ne è la prova.\n\nPerò, insieme a questi indizi vi si illumina la via verso la soluzione di questo enigma. Forse riuscirete perlomeno a dare pace all'anima di Robert Blake.
+EventEnd.button1,Continua
+EventPortaIngresso.text,Non avete ancora indizi sufficienti per lasciare l'appartamento.
+EventPortaIngresso.button1,Continua
+EventSpawnMonster.button1,Continua
+EventSpawnMonster.text,Stai ancora osservando con costernazione e orrore il cadavere del tuo defunto amico, quando la sua pelle inizia a ribollire. Dopo alcuni istanti si spacca in più punti e da questi fori si riversano centinaia di falene dall'aspetto inquietante.\n\nI parassiti iniziano a formare una grossa nube di insetti ronzanti, proprio davanti a te. Guardi meglio e noti che i loro occhi sono rossi. Il loro brusio si fa più basso e minaccioso, dandoti la netta sensazione che stiano per attaccare.
+EventPoniOscuritStudio.text,Poni un segnalino Oscurità in ogni casella.
+EventPoniOscuritStudio.button1,Continua
+EventEvasioneFalene.text,Con un balzo, ti allontani dalla nube di insetti per sfuggirle ({agility} 2).\n\nSe hai successo, riesci ad evadere il suo attacco, altrimenti subisci 1 danno a faccia in giù.
+EventDescrizioneSpawn.text,Il cadavere di Rober Blake inzia a tremolare. La pelle delle sue braccia si squarcia. Migliaia di parassiti simili a piccolissime falene si riversa sul suo corpo. Infine forma una sfera nera e brulicante. Si solleva in volo davanti a voi. Sussurri, cicalii e stridii provengono da questa nube. Essa si scaglia su uno di voi.
+EventOrroreFalene.button1,Continua
+EventProvaOrroreFaleneSuperata.text,Ti tappi le orecchie e strizzi gli occhi, ma riesci a resistere.
+EventProvaOrroreFaleneFallita.text,Fai di tutto per resistere, ma un attimo dopo senti qualcosa di umido nelle orecchie. Saggiando con un dito, lo ritiri per scoprirlo ricoperto di sangue.\n\nSubisci 1 danno.
+EventPoniOscuritBagno.text,Puoi muoverti di una casella all'interno dell'area appena esplorata.
+EventPoniOscuritBagno.button1,Continua
+EventPoniOscuritBagno2.text,Poni un'Oscurità in ogni casella.
+EventPoniOscuritBagno2.button1,Continua
+TokenRicercaBagno.button1,Cerca {action}
+TokenRicercaBagno.text,Decidi di dare un'occhiata al bagno per vedere se c'è qualcosa di utile.
+TokenRicercaBagno.button2,Lascia stare
+EventPoniTokenBagno.text,Poni un segnalino Ricerca come indicato.
+EventPoniTokenBagno.button1,Continua
+EventProvaOrroreFaleneSuperata.button1,Continua
+TokenEsaminaCorpo.button1,Esamina cadavere {observation}
+EventUscitaDisponibile.button2,No.
+EventRestaAppartamento.button1,Continua
+EventRestaAppartamento.text,Avete deciso di restare nell'appartamento ancora un po'.
+EventOrroreFalene.text,Il brusio delle falene sale d'intensità fino a darti l'impressione di avere un trapano nel cervello ({strength}).
+EventAttaccoSoffocamento.text,La nube di falene si scaglia in ogni tuo orifizio, insinuandosi giù per la gola fino allo stomaco e ai polmoni impedendoti di respirare dalla bocca ({will} 2). Se hai successo, riesci a espellere gli insetti dalla bocca con un'esplosione sorda. Altrimenti subisci 1 danno a faccia in giù. Subisci comunque 1 orrore.
+EventAttaccoSoffocamento.button1,Continua
+EventAttaccoVorticeFalene.text,Gli insetti ti circondano solo per cominciare a vorticare rapidamente fino a darti le vertigini ({agility} 2). Se fallisci lasci cadere un oggetto.
+EventAttaccoVorticeFalene.button1,Continua
+EventProvaOttenereCandele.button1,Continua
+EventProvaOttieniCandeleSuperata.text,Afferri le dita contratte del cadavere di Robert e tiri con tutta la tua forza. Dopo alcuni istanti, l'oggetto scivola dalla sua presa e puoi raccoglierlo.
+EventProvaOttenereCandele.text,Fai una prova di Forza {strength}
+EventProvaOttieniCandeleSuperata.button1,Continua
+EventProvaOttenereCandele.button2,Pulsante2
+EventProvaOttieniCandeleFallita.text,Stringi le dita del cadavere con forza e tiri, ma la presa causata dal rigor mortis è troppo forte.
+EventProvaOttieniCandeleFallita.button1,Continua
+EventAssegnaIndizi.text,Ottieni l'oggetto unico {c:QItemProveCircostanziali}.\nSi trova nel menu Items e può essere consultato a piacere.
+EventAssegnaIndizi.button1,Continua
+EventProveCircostanziali.text,Un diario contenente tutte le informazioni rivelate nel diario di Robert Blake.\n\n--\n\n10 ottobre 1935\n\nDopo cinque anni di viaggi, finalmente ho preso la decisione di fermarmi qui a Providence. Ho raccolto appunti sufficienti per almeno tre libri. Inizierò a lavorarci subito. Prima di tutto, però voglio visitare la città. Vi sono un sacco di luoghi sacri e non da cui voglio trarre ispirazione.\n\n--\n\n13 ottobre 1935\n\nNegli ultimi tre giorni ho passato il tempo a cercare l'ispirazione per iniziare a scrivere. Non capisco. Sono in possesso di tutte le informazioni che mi servono per cominciare il mio prossimo romanzo, ma mi è difficile sgombrare la mente in misura sufficiente a permettere alle mie dita di comporre frasi compiute sulla macchina da scrivere. Un blocco proprio ora non ci voleva. Pensavo davvero che questa città mi avrebbe fornito l'ispirazione perfetta.\n\n--\n\n14 ottobre 1935\n\nMi sento stranamente irrequieto. Vista la mia incapacità di scrivere, mi sono recato a visitare un ultimo luogo, una chiesa che, secondo i locali, sarebbe servita da sede di culto per una setta dedita a sacrifici umani. E' stato terribile. Lì ho trovato i resti di un essere umano e, accanto a essi, un taccuino. Lo porterò a casa con me per esaminarlo. Potrebbe contenere informazioni importanti. Ci sono ancora numerose persone scomparse e la polizia potrebbe farne buon uso. Ho trovato anche una libreria piena di libri e una strana pietra, rinchiusa in una scatola nella torre campanaria. Mi domando come mai fosse là. Sembra preziosa, la porterò con me.\n\n--\n\n15 ottobre 1935\n\nMi sono cacciato in un bel guaio. Da quando sono entrato in quella chiesa, ho la sensazione di essere osservato dovunque io vada. Proprio l'altro giorno, mentre mi recavo a pranzare alla tavola calda, credo di aver intravisto una figura sconosciuta osservarmi semi-nascosta da un angolo della via. Mi sento a disagio. Mi sono rivolto a un detective privato, Mark Keating. Abbiamo convenuto che sia meglio per la mia incolumità consegnare il taccuino e la pietra alla polizia.\n\n--\n\n16 ottobre 1935\n\nAvrei dovuto consegnare la pietra al detective quest'oggi, ma gli ho portato solo il taccuino. Qualcosa, una forza d'attrazione irresistibile, mi lega a questo oggetto, rendendomi impossibile separarmene. I miei sogni sono costellati di visioni di mondi al di là dell'ordinario, immagini che mi ispirano a scriverne. Tuttavia, passo più tempo a sognare a occhi aperti di queste dimensioni fantastiche di quanto ne passi a fare qualsiasi altra cosa. Persino assentarmi per andare al bagno è diventato un atroce gesto di allontanamento dalle mie visioni. Dovrei ricominciare a scrivere.\n\n--\n\n20 ottobre 1935\n\nÈ successa una cosa molto strana. Fra me e l'Abitatore si è instaurato un legame tale che sono costretto a legarmi al letto ogni notte per non trovarmi a deambulare fino alla maledetta torre campanaria. Solo i lampioni costituiscono la mia salvezza, poiché la luce artificiale ha la capacità di scacciare l'Abitatore da dove è giunto, impedendogli così di uscire per strada e raggiungermi. Sospetto che non potrò tenerlo a bada ancora per molto. Temendo ciò che mi sta succedendo, mi sono separato dalla pietra. Non ho nemmeno voluto toccarla. Ho affittato una stanza in albergo e ho cercato di evitare casa mia per quanto mi fosse possibile. Stamattina sono tornato per controllare e ho trovato tutto a soqquadro. La pietra è stata rubata. Sospetto che l'individuo da me scorto l'altro giorno mi stesse seguendo proprio allo scopo di trovarla.\n\nCredo di aver fatto un grave errore. Ho bisogno di aiuto, ma le autorità mi prenderebbero per pazzo. Sono costretto a chiamare i miei amici e sperare vengano in mio soccorso.
+EventProveCircostanziali.button1,Riponi
+TokenEsploraDisimpegno.text,Intravedi un corridoio.
+EventRimuoviSegnalinoVista.text,Puoi rimuovere il segnalino Vista.
+EventRimuoviSegnalinoVista.button1,Continua
+EventMovimentoCasellaDisimpegno.text,Puoi spostarti di una casella nell'area esplorata.
+EventPoniTesseraDisimpegno.text,Scopri un andito che dà accesso ad altre stanze dell'appartamento.\n\nPoni la tessera {c:TileDisimpegnoAngolo2}
+EventCercaLibreriaSuperata.button2,Lascia
+EventOttieniLibroMedicina.text,Ottieni l'oggetto comune {c:QItemLibroMedicina}\n\nScarta questo segnalino Ricerca.
+EventPoniTokenVista.text,Qui il corridoio sembra svoltare a sinistra.\n\nPoni un segnalino Vista come indicato.
+TokenEsaminaCorpo1.text,Robert Blake è rannicchiato su se stesso.
+EventEsaminaCorpo1.button1,Esamina {action}
+TokenEsaminaCorpo1.button1,Continua
+CustomMonsterNubeFalene.info,-
+CustomMonsterNubeFalene.monstername,Nube di falene
+SpawnFalene.button1,Continua
